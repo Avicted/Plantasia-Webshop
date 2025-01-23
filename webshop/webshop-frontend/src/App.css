@@ -1,0 +1,45 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*::selection {
+    color: rgb(17, 17, 17);
+    background-color: rgb(253, 182, 115);
+}
+
+.card-zoom-image {
+    @apply w-full transition-all duration-500 ease-in-out transform bg-center bg-cover;
+}
+
+.card-zoom-text {
+    @apply absolute text-5xl font-black transition-all duration-500 ease-in-out transform scale-150 text-gray-50 opacity-60;
+}
+
+.card-zoom:hover .card-zoom-image {
+    @apply scale-150;
+}
+.card-zoom:hover .card-zoom-text {
+    @apply scale-100;
+}
+
+.bg-cover-background.animated {
+    animation: filter-animation 2s infinite;
+}
+
+@-webkit-keyframes filter-animation {
+    0% {
+        background-image: linear-gradient(0deg, #f3f4f6, hsl(0, 100%, 92%, 0.85)),
+            url('/src/assets/cover_background.jpg');
+    }
+
+    50% {
+        background-image: linear-gradient(0deg, #f3f4f6, hsl(359, 100%, 92%, 0.85)),
+            url('/src/assets/cover_background.jpg');
+    }
+
+    100% {
+        background-image: linear-gradient(0deg, #f3f4f6, hsl(0, 100%, 92%, 0.85)),
+            url('/src/assets/cover_background.jpg');
+    }
+}

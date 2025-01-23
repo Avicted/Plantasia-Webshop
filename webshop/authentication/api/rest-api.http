@@ -1,0 +1,49 @@
+### Register a new user
+POST http://127.0.0.1:8000/api/auth/register/
+Content-Type: application/json
+
+{
+  "username": "testuser1",
+  "email": "victor.anderssen@abo.fi",
+  "password1": "pass1",
+  "password2": "pass1"
+}
+
+
+### Change password
+PUT http://127.0.0.1:8000/api/auth/change-password/
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQxNDEzMjgyLCJpYXQiOjE2NDEzMjY4ODIsImp0aSI6ImY5ODY5NzEwODM0MTQ2NTBhOTNmN2Y2ZmI2NjE1YTQ4IiwidXNlcl9pZCI6MiwiYXVkIjoicGxhbnRhc2lhLXVzZXJzIiwiaXNzIjoibm90YXNvZnR3YXJlZGV2ZWxvcG1lbnRjb21wYW55In0.Yljvu-NT-Y995BQ6TTza1uWsb2Nkk8Z0l0HFkNM6SAw
+
+{
+  "oldPassword": "123456",
+  "newPassword": "pass1"
+}
+
+### Authenticate
+POST http://127.0.0.1:8000/api/auth/token/
+Content-Type: application/json
+
+{
+  "username": "testuser1",
+  "password": "pass1"
+}
+
+### Fetch a my user data using the Authorization header
+GET http://127.0.0.1:8000/api/auth/me/
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQxNDAwMzY3LCJpYXQiOjE2NDEzMTM5NjcsImp0aSI6ImRlNjRiMDVlOWE3NzQ0ZTc5OWE0MTA3ZDFlN2MwMDUzIiwidXNlcl9pZCI6MiwiYXVkIjoicGxhbnRhc2lhLXVzZXJzIiwiaXNzIjoibm90YXNvZnR3YXJlZGV2ZWxvcG1lbnRjb21wYW55In0.39-bi3aXa9x702aUlyzJUJDRoYHqb9X7QFXRrOeR_6o
+
+
+### Fetch a new access token using the longer lived refresh token
+POST http://127.0.0.1:8000/api/auth/token/refresh/
+Content-Type: application/json
+
+{
+  "refresh": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY0MjI2NDM0MiwiaWF0IjoxNjM5NjcyMzQyLCJqdGkiOiJhNzIzNmEyYTEzZDk0MDZhODI0Y2UzN2M0N2I5NTM1NSIsInVzZXJfaWQiOjIxLCJhdWQiOiJwbGFudGFzaWEtdXNlcnMiLCJpc3MiOiJub3Rhc29mdHdhcmVkZXZlbG9wbWVudGNvbXBhbnkifQ.eA_W_WiAQdVTAhT2XHh8m2_pn1K__KQSeYVRnCUoouI"
+}
+
+
+### Access a protected route
+GET http://127.0.0.1:8000/api/shop-items/
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQxNDAwMzY3LCJpYXQiOjE2NDEzMTM5NjcsImp0aSI6ImRlNjRiMDVlOWE3NzQ0ZTc5OWE0MTA3ZDFlN2MwMDUzIiwidXNlcl9pZCI6MiwiYXVkIjoicGxhbnRhc2lhLXVzZXJzIiwiaXNzIjoibm90YXNvZnR3YXJlZGV2ZWxvcG1lbnRjb21wYW55In0.39-bi3aXa9x702aUlyzJUJDRoYHqb9X7QFXRrOeR_6o

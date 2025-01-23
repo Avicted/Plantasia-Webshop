@@ -1,0 +1,10 @@
+services:
+  webshop-plantasia:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    command: >
+      sh -c 'python /app/webshop/manage.py migrate --verbosity 3 || (echo "Migrations failed" && exit 1) &&
+             python /app/webshop/manage.py runserver 0.0.0.0:8000 --pythonpath=webshop --settings="webshop.settings"'

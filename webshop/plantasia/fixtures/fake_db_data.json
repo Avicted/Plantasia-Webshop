@@ -1,0 +1,1487 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2021-12-26T19:24:08.528Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "testuser1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2021-12-26T19:24:36.698Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "testuser1",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Email address\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2021-12-26T19:24:53.839Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "testuser1",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2021-12-26T19:25:03.620Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "testuser1",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2021-12-26T19:25:14.874Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "3",
+    "object_repr": "testuser2",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2021-12-26T19:25:26.138Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "3",
+    "object_repr": "testuser2",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Email address\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2021-12-26T19:25:39.183Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "4",
+    "object_repr": "testuser3",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2021-12-26T19:25:45.536Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "4",
+    "object_repr": "testuser3",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Email address\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2021-12-26T19:25:54.040Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "5",
+    "object_repr": "testuser4",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2021-12-26T19:26:01.957Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "5",
+    "object_repr": "testuser4",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Email address\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2021-12-26T19:26:10.482Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "6",
+    "object_repr": "testuser5",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2021-12-26T19:26:16.785Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "6",
+    "object_repr": "testuser5",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Email address\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2021-12-26T19:26:36.770Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "7",
+    "object_repr": "testuser6",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2021-12-26T19:26:41.403Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "7",
+    "object_repr": "testuser6",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Email address\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2021-12-26T19:31:47.944Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Majestic Cress",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2021-12-26T19:32:36.800Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Mocking Wormwood",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2021-12-26T19:33:32.078Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Silver Hedge Cactus",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2021-12-26T19:34:14.464Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Hidden Thistle",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2021-12-26T19:34:41.300Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Bonsai Tree",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2021-12-26T19:35:00.534Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Green Sphere tree",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2021-12-26T19:35:20.728Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Demon's Ragweed",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2021-12-26T19:35:44.396Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Arching Goldenglow",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2021-12-26T19:36:11.277Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Miracle Clove",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2021-12-26T19:36:32.258Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "Elven Duscle",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2021-12-26T19:37:55.544Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Majestic Cress",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image src\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2021-12-29T15:08:34.362Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "Swamp Tassel",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2021-12-29T15:09:13.766Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "12",
+    "object_repr": "Wisdom Needle",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2021-12-29T15:09:38.864Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "13",
+    "object_repr": "Phoenix Hogweed",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2021-12-29T15:10:12.493Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "14",
+    "object_repr": "Spoggite",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2021-12-29T15:10:38.075Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "15",
+    "object_repr": "Heart Broadleaf",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2021-12-29T15:11:09.251Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "16",
+    "object_repr": "Sleeping Thousand-leaf",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2021-12-29T15:11:32.398Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "17",
+    "object_repr": "Brozlender",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2021-12-29T15:12:06.422Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "18",
+    "object_repr": "Noxious Bite",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2021-12-29T15:12:48.489Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "19",
+    "object_repr": "Ioslum",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2021-12-29T15:13:07.315Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "20",
+    "object_repr": "Vlirgerry",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2021-12-29T15:19:24.824Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "21",
+    "object_repr": "Corrupted Lavender",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2021-12-29T15:19:45.179Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "22",
+    "object_repr": "Uclozretta",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2021-12-29T15:20:21.680Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "23",
+    "object_repr": "Rare Hellebore",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2021-12-29T15:20:42.726Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "24",
+    "object_repr": "Krejort",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2021-12-29T15:21:23.076Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "25",
+    "object_repr": "Twisted Rantipole",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2021-12-29T15:21:48.599Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "26",
+    "object_repr": "Silent Milkweed",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2021-12-29T15:23:26.018Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "27",
+    "object_repr": "Sugar Hibiscus",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2021-12-29T15:23:45.081Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "28",
+    "object_repr": "Dire Nightshade",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2021-12-29T15:24:08.680Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "29",
+    "object_repr": "Master Colwort",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2021-12-29T15:24:24.293Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "30",
+    "object_repr": "Nordic Poppy",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add shop item",
+    "content_type": 7,
+    "codename": "add_shopitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change shop item",
+    "content_type": 7,
+    "codename": "change_shopitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete shop item",
+    "content_type": 7,
+    "codename": "delete_shopitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view shop item",
+    "content_type": 7,
+    "codename": "view_shopitem"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$QUZhx7agtECvreZApinFMq$WiCIfdWB0QwX4EMIAxh7mUmB8YqZUWhBzjnEJym7wFs=",
+    "last_login": "2021-12-29T15:06:25.724Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@example.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2021-12-26T19:13:50.033Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$qNj0GynwfcfeDYZpCz6x4V$v6cXDAjNUWxxIzJnDUjvli96ZErcBTZo2ZLTxTqJO3c=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "testuser1",
+    "first_name": "",
+    "last_name": "",
+    "email": "testuser1@shop.aa",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-12-26T19:24:08Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$w81w2dnaamrLK9tHHKlwuw$fAZKlUNzJX97CFaOJ4MeDfJl7D6w/qzAYCEXxnckta8=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "testuser2",
+    "first_name": "",
+    "last_name": "",
+    "email": "testuser2@shop.aa",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-12-26T19:25:14Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$kfwDo9U8kYWuY5ZmbnoSkd$yw2iaQ6PwgRms1HWWYk2j6J1bUcFMCCrOxPejubJp8I=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "testuser3",
+    "first_name": "",
+    "last_name": "",
+    "email": "testuser3@shop.aa",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-12-26T19:25:39Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$yWgbnjc5tOld7XPgKG5F6F$Q+5m9yFCy6xz92zKUA0p4ocnDzjVpU4x5UsjVoDjWNM=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "testuser4",
+    "first_name": "",
+    "last_name": "",
+    "email": "testuser4@shop.aa",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-12-26T19:25:53Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$ONqrCPYFCemTQKmUIKvQqn$MhYHn3Bnkcp6xgQqfm73pBeHf6nbTMHwV2LZt0JqCKc=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "testuser5",
+    "first_name": "",
+    "last_name": "",
+    "email": "testuser5@shop.aa",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-12-26T19:26:10Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 7,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$hLsZNQ4XrJ5SxnTm5i5ZKe$Feeoj71zoOnzTj9krOoiVuHIEQOSMsdLAeGgYaTJHF4=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "testuser6",
+    "first_name": "",
+    "last_name": "",
+    "email": "testuser6@shop.aa",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-12-26T19:26:36Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "plantasia",
+    "model": "shopitem"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "817aq9zt0is34ubfcfuougmfh7ilsfr2",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAUBf-FtSFcoBZcuu83kPugUjU0Ke3K-O_apAvdnpk5L5VwW0vaWl7SJOqiQJ1-N0J-5LoDuWO9zZrnui4T6V3RB216mCU_r4f7d1CwlW89EjAbZ13ALkronUR2jj2yD0QMEEgQInBvuoA-2ozmDJ5ytmNgQ-r9Ae9FOEo:1n1Yxy:0nL73584u9Jj50lJZKz9KgPaUcFiw80QIB4BWWhCVxQ",
+    "expire_date": "2022-01-09T19:13:58.980Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "cda9dspeqpzo0b6nckobkt2890hyrk61",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAUBf-FtSFcoBZcuu83kPugUjU0Ke3K-O_apAvdnpk5L5VwW0vaWl7SJOqiQJ1-N0J-5LoDuWO9zZrnui4T6V3RB216mCU_r4f7d1CwlW89EjAbZ13ALkronUR2jj2yD0QMEEgQInBvuoA-2ozmDJ5ytmNgQ-r9Ae9FOEo:1n2aX3:vKMs4RLjfCVe8JViBTdto4z0H7LQELBjbS5eGB2dvGs",
+    "expire_date": "2022-01-12T15:06:25.732Z"
+  }
+},
+{
+  "model": "plantasia.shopitem",
+  "pk": 1,
+  "fields": {
+    "created_at": "2021-12-26T19:31:47.943Z",
+    "updated_at": "2021-12-26T19:37:55.485Z",
+    "seller": 2,
+    "buyer": null,
+    "name": "Majestic Cress",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has sur",
+    "price": 12,
+    "image_src": "shopitems/images/plant_1.jpeg",
+    "image_alt": "Majestic Cress"
+  }
+},
+{
+  "model": "plantasia.shopitem",
+  "pk": 2,
+  "fields": {
+    "created_at": "2021-12-26T19:32:36.702Z",
+    "updated_at": "2021-12-26T19:32:36.702Z",
+    "seller": 2,
+    "buyer": null,
+    "name": "Mocking Wormwood",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has sur",
+    "price": 45,
+    "image_src": "shopitems/images/plant_2.jpeg",
+    "image_alt": "Mocking Wormwood"
+  }
+},
+{
+  "model": "plantasia.shopitem",
+  "pk": 3,
+  "fields": {
+    "created_at": "2021-12-26T19:33:32.018Z",
+    "updated_at": "2021-12-26T19:33:32.018Z",
+    "seller": 2,
+    "buyer": null,
+    "name": "Silver Hedge Cactus",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has sur",
+    "price": 7,
+    "image_src": "shopitems/images/plant_3.jpeg",
+    "image_alt": "Silver Hedge Cactus"
+  }
+},
+{
+  "model": "plantasia.shopitem",
+  "pk": 4,
+  "fields": {
+    "created_at": "2021-12-26T19:34:14.394Z",
+    "updated_at": "2021-12-26T19:34:14.394Z",
+    "seller": 2,
+    "buyer": null,
+    "name": "Hidden Thistle",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has sur",
+    "price": 29,
+    "image_src": "shopitems/images/plant_4.jpeg",
+    "image_alt": "Hidden Thistle"
+  }
+},
+{
+  "model": "plantasia.shopitem",
+  "pk": 5,
+  "fields": {
+    "created_at": "2021-12-26T19:34:41.231Z",
+    "updated_at": "2021-12-26T19:34:41.231Z",
+    "seller": 2,
+    "buyer": null,
+    "name": "Bonsai Tree",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has sur",
+    "price": 44,
+    "image_src": "shopitems/images/plant_5.jpeg",
+    "image_alt": "Bonsai Tree"
+  }
+},
+{
+  "model": "plantasia.shopitem",
+  "pk": 6,
+  "fields": {
+    "created_at": "2021-12-26T19:35:00.471Z",
+    "updated_at": "2021-12-26T19:35:00.471Z",
+    "seller": 2,
+    "buyer": null,
+    "name": "Green Sphere tree",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has sur",
+    "price": 123,
+    "image_src": "shopitems/images/plant_6.jpeg",
+    "image_alt": "Green Sphere tree"
+  }
+},
+{
+  "model": "plantasia.shopitem",
+  "pk": 7,
+  "fields": {
+    "created_at": "2021-12-26T19:35:20.667Z",
+    "updated_at": "2021-12-26T19:35:20.667Z",
+    "seller": 2,
+    "buyer": null,
+    "name": "Demon's Ragweed",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has sur",
+    "price": 5,
+    "image_src": "shopitems/images/plant_7.jpeg",
+    "image_alt": "Demon's Ragweed"
+  }
+},
+{
+  "model": "plantasia.shopitem",
+  "pk": 8,
+  "fields": {
+    "created_at": "2021-12-26T19:35:44.298Z",
+    "updated_at": "2021-12-26T19:35:44.298Z",
+    "seller": 2,
+    "buyer": null,
+    "name": "Arching Goldenglow",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has sur",
+    "price": 99,
+    "image_src": "shopitems/images/plant_8.jpeg",
+    "image_alt": "Arching Goldenglow"
+  }
+},
+{
+  "model": "plantasia.shopitem",
+  "pk": 9,
+  "fields": {
+    "created_at": "2021-12-26T19:36:11.217Z",
+    "updated_at": "2021-12-26T19:36:11.217Z",
+    "seller": 2,
+    "buyer": null,
+    "name": "Miracle Clove",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has sur",
+    "price": 30,
+    "image_src": "shopitems/images/plant_9.jpeg",
+    "image_alt": "Miracle Clove"
+  }
+},
+{
+  "model": "plantasia.shopitem",
+  "pk": 10,
+  "fields": {
+    "created_at": "2021-12-26T19:36:32.188Z",
+    "updated_at": "2021-12-26T19:36:32.188Z",
+    "seller": 2,
+    "buyer": null,
+    "name": "Elven Duscle",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has sur",
+    "price": 33,
+    "image_src": "shopitems/images/plant_10.jpeg",
+    "image_alt": "Elven Duscle"
+  }
+},
+{
+  "model": "plantasia.shopitem",
+  "pk": 11,
+  "fields": {
+    "created_at": "2021-12-29T15:08:34.307Z",
+    "updated_at": "2021-12-29T15:08:34.307Z",
+    "seller": 3,
+    "buyer": null,
+    "name": "Swamp Tassel",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has sur",
+    "price": 67,
+    "image_src": "shopitems/images/plant_11.jpeg",
+    "image_alt": "Swamp Tassel"
+  }
+},
+{
+  "model": "plantasia.shopitem",
+  "pk": 12,
+  "fields": {
+    "created_at": "2021-12-29T15:09:13.721Z",
+    "updated_at": "2021-12-29T15:09:13.721Z",
+    "seller": 3,
+    "buyer": null,
+    "name": "Wisdom Needle",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has sur",
+    "price": 35,
+    "image_src": "shopitems/images/plant_12.jpeg",
+    "image_alt": "Wisdom Needle"
+  }
+},
+{
+  "model": "plantasia.shopitem",
+  "pk": 13,
+  "fields": {
+    "created_at": "2021-12-29T15:09:38.807Z",
+    "updated_at": "2021-12-29T15:09:38.807Z",
+    "seller": 3,
+    "buyer": null,
+    "name": "Phoenix Hogweed",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has sur",
+    "price": 80,
+    "image_src": "shopitems/images/plant_13.jpeg",
+    "image_alt": "Phoenix Hogweed"
+  }
+},
+{
+  "model": "plantasia.shopitem",
+  "pk": 14,
+  "fields": {
+    "created_at": "2021-12-29T15:10:12.386Z",
+    "updated_at": "2021-12-29T15:10:12.386Z",
+    "seller": 3,
+    "buyer": null,
+    "name": "Spoggite",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has sur",
+    "price": 2,
+    "image_src": "shopitems/images/plant_14.jpeg",
+    "image_alt": "Spoggite"
+  }
+},
+{
+  "model": "plantasia.shopitem",
+  "pk": 15,
+  "fields": {
+    "created_at": "2021-12-29T15:10:37.984Z",
+    "updated_at": "2021-12-29T15:10:37.984Z",
+    "seller": 3,
+    "buyer": null,
+    "name": "Heart Broadleaf",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has sur",
+    "price": 24,
+    "image_src": "shopitems/images/plant_15.jpeg",
+    "image_alt": "Heart Broadleaf"
+  }
+},
+{
+  "model": "plantasia.shopitem",
+  "pk": 16,
+  "fields": {
+    "created_at": "2021-12-29T15:11:09.201Z",
+    "updated_at": "2021-12-29T15:11:09.201Z",
+    "seller": 3,
+    "buyer": null,
+    "name": "Sleeping Thousand-leaf",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has sur",
+    "price": 19,
+    "image_src": "shopitems/images/plant_16.jpeg",
+    "image_alt": "Sleeping Thousand-leaf"
+  }
+},
+{
+  "model": "plantasia.shopitem",
+  "pk": 17,
+  "fields": {
+    "created_at": "2021-12-29T15:11:32.345Z",
+    "updated_at": "2021-12-29T15:11:32.345Z",
+    "seller": 3,
+    "buyer": null,
+    "name": "Brozlender",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has sur",
+    "price": 7,
+    "image_src": "shopitems/images/plant_17.jpeg",
+    "image_alt": "Brozlender"
+  }
+},
+{
+  "model": "plantasia.shopitem",
+  "pk": 18,
+  "fields": {
+    "created_at": "2021-12-29T15:12:06.333Z",
+    "updated_at": "2021-12-29T15:12:06.333Z",
+    "seller": 3,
+    "buyer": null,
+    "name": "Noxious Bite",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has sur",
+    "price": 49,
+    "image_src": "shopitems/images/plant_18.jpeg",
+    "image_alt": "Noxious Bite"
+  }
+},
+{
+  "model": "plantasia.shopitem",
+  "pk": 19,
+  "fields": {
+    "created_at": "2021-12-29T15:12:48.435Z",
+    "updated_at": "2021-12-29T15:12:48.435Z",
+    "seller": 3,
+    "buyer": null,
+    "name": "Ioslum",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has sur",
+    "price": 3,
+    "image_src": "shopitems/images/plant_19.jpeg",
+    "image_alt": "Ioslum"
+  }
+},
+{
+  "model": "plantasia.shopitem",
+  "pk": 20,
+  "fields": {
+    "created_at": "2021-12-29T15:13:07.275Z",
+    "updated_at": "2021-12-29T15:13:07.275Z",
+    "seller": 3,
+    "buyer": null,
+    "name": "Vlirgerry",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has sur",
+    "price": 8,
+    "image_src": "shopitems/images/plant_20.jpeg",
+    "image_alt": "Vlirgerry"
+  }
+},
+{
+  "model": "plantasia.shopitem",
+  "pk": 21,
+  "fields": {
+    "created_at": "2021-12-29T15:19:24.783Z",
+    "updated_at": "2021-12-29T15:19:24.784Z",
+    "seller": 4,
+    "buyer": null,
+    "name": "Corrupted Lavender",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has sur",
+    "price": 45,
+    "image_src": "shopitems/images/plant_21.jpeg",
+    "image_alt": "Corrupted Lavender"
+  }
+},
+{
+  "model": "plantasia.shopitem",
+  "pk": 22,
+  "fields": {
+    "created_at": "2021-12-29T15:19:45.140Z",
+    "updated_at": "2021-12-29T15:19:45.140Z",
+    "seller": 4,
+    "buyer": null,
+    "name": "Uclozretta",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has sur",
+    "price": 1,
+    "image_src": "shopitems/images/plant_22.jpeg",
+    "image_alt": "Uclozretta"
+  }
+},
+{
+  "model": "plantasia.shopitem",
+  "pk": 23,
+  "fields": {
+    "created_at": "2021-12-29T15:20:21.638Z",
+    "updated_at": "2021-12-29T15:20:21.638Z",
+    "seller": 4,
+    "buyer": null,
+    "name": "Rare Hellebore",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has sur",
+    "price": 50,
+    "image_src": "shopitems/images/plant_23.jpeg",
+    "image_alt": "Rare Hellebore"
+  }
+},
+{
+  "model": "plantasia.shopitem",
+  "pk": 24,
+  "fields": {
+    "created_at": "2021-12-29T15:20:42.681Z",
+    "updated_at": "2021-12-29T15:20:42.681Z",
+    "seller": 4,
+    "buyer": null,
+    "name": "Krejort",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has sur",
+    "price": 17,
+    "image_src": "shopitems/images/plant_24.jpeg",
+    "image_alt": "Krejort"
+  }
+},
+{
+  "model": "plantasia.shopitem",
+  "pk": 25,
+  "fields": {
+    "created_at": "2021-12-29T15:21:23.043Z",
+    "updated_at": "2021-12-29T15:21:23.043Z",
+    "seller": 4,
+    "buyer": null,
+    "name": "Twisted Rantipole",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has sur",
+    "price": 8,
+    "image_src": "shopitems/images/plant_25.jpeg",
+    "image_alt": "Twisted Rantipole"
+  }
+},
+{
+  "model": "plantasia.shopitem",
+  "pk": 26,
+  "fields": {
+    "created_at": "2021-12-29T15:21:48.564Z",
+    "updated_at": "2021-12-29T15:21:48.564Z",
+    "seller": 4,
+    "buyer": null,
+    "name": "Silent Milkweed",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has sur",
+    "price": 23,
+    "image_src": "shopitems/images/plant_26.jpeg",
+    "image_alt": "Silent Milkweed"
+  }
+},
+{
+  "model": "plantasia.shopitem",
+  "pk": 27,
+  "fields": {
+    "created_at": "2021-12-29T15:23:25.987Z",
+    "updated_at": "2021-12-29T15:23:25.987Z",
+    "seller": 4,
+    "buyer": null,
+    "name": "Sugar Hibiscus",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has sur",
+    "price": 24,
+    "image_src": "shopitems/images/plant_27.jpeg",
+    "image_alt": "Sugar Hibiscus"
+  }
+},
+{
+  "model": "plantasia.shopitem",
+  "pk": 28,
+  "fields": {
+    "created_at": "2021-12-29T15:23:45.043Z",
+    "updated_at": "2021-12-29T15:23:45.043Z",
+    "seller": 4,
+    "buyer": null,
+    "name": "Dire Nightshade",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has sur",
+    "price": 2,
+    "image_src": "shopitems/images/plant_28.jpeg",
+    "image_alt": "Dire Nightshade"
+  }
+},
+{
+  "model": "plantasia.shopitem",
+  "pk": 29,
+  "fields": {
+    "created_at": "2021-12-29T15:24:08.635Z",
+    "updated_at": "2021-12-29T15:24:08.635Z",
+    "seller": 4,
+    "buyer": null,
+    "name": "Master Colwort",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has sur",
+    "price": 35,
+    "image_src": "shopitems/images/plant_29.jpeg",
+    "image_alt": "Master Colwort"
+  }
+},
+{
+  "model": "plantasia.shopitem",
+  "pk": 30,
+  "fields": {
+    "created_at": "2021-12-29T15:24:24.252Z",
+    "updated_at": "2021-12-29T15:24:24.252Z",
+    "seller": 4,
+    "buyer": null,
+    "name": "Nordic Poppy",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has sur",
+    "price": 6,
+    "image_src": "shopitems/images/plant_30.jpeg",
+    "image_alt": "Nordic Poppy"
+  }
+}
+]

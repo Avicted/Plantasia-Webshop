@@ -1,0 +1,44 @@
+
+#### Get all shop items
+GET http://localhost:8000/api/shop-items/
+Content-Type: application/json
+
+
+
+#### Authenticate
+POST http://127.0.0.1:8000/api/auth/token/
+Content-Type: application/json
+
+{
+  "username": "testuser1",
+  "password": "pass1"
+}
+
+
+
+
+#### Create shop item
+POST http://127.0.0.1:8000/api/shop-items/
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQxNDE5NjI3LCJpYXQiOjE2NDEzMzMyMjcsImp0aSI6IjcyN2I0YTkwMDRiMDQ3ODE5MzJmNGMwNjZmNWQzODA5IiwidXNlcl9pZCI6NiwiYXVkIjoicGxhbnRhc2lhLXVzZXJzIiwiaXNzIjoibm90YXNvZnR3YXJlZGV2ZWxvcG1lbnRjb21wYW55In0.bThuI7-iCbuvOe0MGMEC0VVOrRGuKVJHbzHTuZLRNas
+
+{
+  "name": "This is a test item",
+  "description": "This is a test item created from code lolz",
+  "price": "42"
+}
+
+#### Get my items for sale
+GET http://127.0.0.1:8000/api/my-items-for-sale/
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQxNDE5NjI3LCJpYXQiOjE2NDEzMzMyMjcsImp0aSI6IjcyN2I0YTkwMDRiMDQ3ODE5MzJmNGMwNjZmNWQzODA5IiwidXNlcl9pZCI6NiwiYXVkIjoicGxhbnRhc2lhLXVzZXJzIiwiaXNzIjoibm90YXNvZnR3YXJlZGV2ZWxvcG1lbnRjb21wYW55In0.bThuI7-iCbuvOe0MGMEC0VVOrRGuKVJHbzHTuZLRNas
+
+
+#### Update shop item
+PATCH http://127.0.0.1:8000/api/shop-items/90/
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQxNDE5NjI3LCJpYXQiOjE2NDEzMzMyMjcsImp0aSI6IjcyN2I0YTkwMDRiMDQ3ODE5MzJmNGMwNjZmNWQzODA5IiwidXNlcl9pZCI6NiwiYXVkIjoicGxhbnRhc2lhLXVzZXJzIiwiaXNzIjoibm90YXNvZnR3YXJlZGV2ZWxvcG1lbnRjb21wYW55In0.bThuI7-iCbuvOe0MGMEC0VVOrRGuKVJHbzHTuZLRNas
+
+{
+  "price": 1337
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html class="bg-gray-100">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="{% static 'tailwind.js' %}"></script>
+    <title>Plantasia landing page</title>
+</head>
+<body>
+<div class="bg-gray-100 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 divide-gray-200 text-center">
+  <div class="max-w-3xl mx-auto bg-white">
+    <div class="px-4 py-5 sm:px-6">
+      <p>Plantasia has <b>{{ shopItemCount }}</b> items and <b>{{ userCount }}</b> active users!</p>
+    </div>
+    <div class="px-4 py-5 sm:p-6">
+      <form action="/" method="POST">
+        {% csrf_token %}
+        <input 
+          type="submit" 
+          class="text-blue-600 hover:underline hover:text-blue-400" 
+          value="Delete all items and generate 30 items and 6 users."
+        >
+      </form>
+    </div>
+    <div class="px-4 py-4 sm:px-6">
+      <p>By going to the webshop you agree to our terms and conditions.</p>
+      <a href="/shop" class="text-blue-600 hover:underline hover:text-blue-400">Go to shop</a>
+    </div>
+    </div>
+  </div>
+</body>
+</html>
