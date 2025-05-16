@@ -133,22 +133,22 @@ This is the typical frontend setup that I have used on many projects with great 
 ## Screenshots
 
 ### Shop Page
-![screen](Plantasia_1.png "Shop page")
+![screen](screenshots/Plantasia_1.png "Shop page")
 
 ### Product View
-![screen](Plantasia_product_view.png "Product View")
+![screen](screenshots/Plantasia_product_view.png "Product View")
 
 ### Account Settings
-![screen](Plantasia_account_settings.png "Account Settings")
+![screen](screenshots/Plantasia_account_settings.png "Account Settings")
 
 ### My Items for Sale
-![screen](Plantasia_my_items_for_sale.png "My Items for Sale")
+![screen](screenshots/Plantasia_my_items_for_sale.png "My Items for Sale")
 
 ### My Sold Items
-![screen](Plantasia_my_sold_items.png "My Sold Items")
+![screen](screenshots/Plantasia_my_sold_items.png "My Sold Items")
 
 ### Shopping Cart
-![screen](Plantasia_shopping_cart.png "Shopping Cart")
+![screen](screenshots/Plantasia_shopping_cart.png "Shopping Cart")
 
 ### Payment Successfull
-![screen](Plantasia_payment_successfull.png "Payment Successfull")
+![screen](screenshots/Plantasia_payment_successfull.png "Payment Successfull")
