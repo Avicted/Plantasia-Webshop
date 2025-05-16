@@ -1,10 +1,5 @@
 # Web technologies
 
-```text
-Name:   Victor Anderssén
-Email:  victor.anderssen@abo.fi
-```
-
 ## How to run the application stack
 
 ```bash
